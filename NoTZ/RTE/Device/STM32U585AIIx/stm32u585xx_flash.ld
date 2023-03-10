@@ -32,6 +32,7 @@
 //   <o0> Flash Base Address <0x0-0xFFFFFFFF:8>
 //   <o1> Flash Size (in Bytes) <0x0-0xFFFFFFFF:8>
 // </h>
+ */
 __ROM_BASE = 0x08000000;
 __ROM_SIZE = 0x00200000;
 
