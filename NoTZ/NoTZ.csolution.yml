@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/1.5.0/tools/projmgr/schemas/csolution.schema.json
+
+solution:
+
+  build-types:
+    - type: Debug
+      debug: on
+      optimize: none
+      define:
+        - DEBUG
+    - type: Release
+      debug: off
+      optimize: balanced
+
+  target-types:
+    - type: HW
+      board: STMicroelectronics::B-U585I-IOT02A
+      device: STMicroelectronics::STM32U585AIIx
+
+  projects:
+    - project: ./NoTZ.cproject.yml
